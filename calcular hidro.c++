@@ -6,7 +6,7 @@ El programa define varias funciones para realizar los cálculos necesarios. La f
 
 En la función principal del programa, el usuario proporciona los parámetros del modelo, incluyendo el coeficiente de drenaje superficial, el coeficiente de infiltración, el coeficiente de almacenamiento en el embalse, el coeficiente de almacenamiento en el canal, el coeficiente de almacenamiento en el suelo y la constante de tiempo del método de Muskingum. A continuación, el programa solicita la precipitación, la evapotranspiración y el caudal observado para cada período de tiempo. Con estos datos, el programa realiza los cálculos necesarios para obtener los almacenamientos en el embalse, en el canal y en el suelo, así como el flujo de agua a través del canal. Finalmente, el programa calcula los índices de desempeño y los muestra al usuario.
 
-
+El codigo puede correr en cualquier compilador de C++. El codigo fue probado en https://www.onlinegdb.com/online_c++_compiler
 *****************************************/
 
 #include <iostream>
